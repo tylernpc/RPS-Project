@@ -1,3 +1,16 @@
 * {
     font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+button {
+    background-color: springgreen;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px 40px 10px 40px;
 }
