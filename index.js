@@ -26,3 +26,11 @@ function userInput(userChoice) {
         resultText('You lose!');
     }
 }
+
+function scoreCounter() {
+
+    while()
+
+    const userScore = 
+    const botScore =
+}
