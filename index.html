@@ -9,14 +9,20 @@
 </head>
 
 <body>
-    <h1>Jan, Ken, Rock</h1>
-    <button onclick="userInput('Rock')">Rock</button>
-    <button onclick="userInput('Paper')">Paper</button>
-    <button onclick="userInput('Scissors')">Scissors</button>
-    <p id="result">Did you win, lose, or draw?</p>
 
-    <p>Scoreboard</p>
-    <h2>User - Bot</h2>
+    <div class="wrap">
+        <h1>Jan, Ken, Rock</h1>
+        <button onclick="userInput('Rock')">Rock</button>
+        <button onclick="userInput('Paper')">Paper</button>
+        <button onclick="userInput('Scissors')">Scissors</button>
+        <p id="result">Did you win, lose, or draw?</p>
+    
+        <div class="score-board">
+            <div id="userScore">User Score: 0</div>
+            <div id="cpuScore">Computer Score: 0</div>
+        </div>
+    </div>
+    
 </body>
 <script src="index.js"></script>
 
